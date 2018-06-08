@@ -4,7 +4,7 @@ var mysql = require("mysql");
 
 var msql = require('mysql');
 var connection;
-var JAWSDB_URL = "mysql://.....";
+var JAWSDB_URL = "mysql://orl033vbfeuaempt:gniplknplqhyeozp@j1r4n2ztuwm0bhh5.cbetxkdyhwsb.us-east-1.rds.amazonaws.com:3306/r30gfii78bpv4x91";
 
 
 

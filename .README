@@ -1,0 +1,29 @@
+# Eat Da Burger
+
+Here I've built fictional refridgerator/ "burger logger" with MySQL, Node, Express, Handlebars and a homemade ORM (yum!). Using MVC design pattern standards; the app uses Node and MySQL to query and route data, and Handlebars to generate the HTML.
+
+## Getting Started :
+
+## Using the App :
+
+Just fill in your profile and follow the given instructions. 
+
+## Built With :
+* [Javascript](https://www.javascript.com/) - programming language
+* [Node.js](https://nodejs.org/en/) - javascript runtime
+* [Bootstrap](https://getbootstrap.com/docs/4.1/components/dropdowns/) - CSS Framework
+* [Heroku](https://dev.mysql.com/downloads/mysql/) - server
+* [MySQL]
+* [Handlebars]
+
+### NPM Packages :
+* [express](https://www.npmjs.com/package/express)
+* [body-parser](https://www.npmjs.com/package/body-parser)
+* [mysql](https://www.npmjs.com/package/mysql)
+
+## Author :
+* **Jessica Brush** - [dandiflower](https://github.com/dandiflower)
+
+
+## Acknowledgments :
+A big thank you to Berkeley bootcamp!!
