@@ -1,10 +1,11 @@
 <h1>burgers!</h1>
 
 <h2>Burgers that are not devoured!</h2>
+<img src="/assets/img/burger.png" alt="burger">
 
 <ul>
   {{#each burgers}}
-    {{#unless sleepy}}
+    {{#unless devour}}
       {{> burgers/burger-block devour=true}}
     {{/unless}}
   {{/each}}
@@ -34,5 +35,5 @@
     <input type="radio" name="devour" value="0"> save for later
   </div>
 
-  <button type="submit">Add Cat</button>
+  <button type="submit">Add Burger</button>
 </form>
