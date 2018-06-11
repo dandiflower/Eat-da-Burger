@@ -16,7 +16,7 @@
 <ul>
   {{#each burgers}}
     {{#if devour}}
-      {{> burgers/cat-block devour=false}}
+      {{> burgers/burger-block devour=false}}
     {{/if}}
   {{/each}}
 </ul>
@@ -25,15 +25,15 @@
 <form class="create-form">
 
   <div class="form-group">
-    <label for="burga">Burger Name:</label>
-    <input type="text" id="burga" name="name">
+    <label for="burger">Burger Name:</label>
+    <input type="text" id="burger" name="name">
   </div>
 
-  <div class="form-group">
-    <label for="devour">devour?</label><br>
+  {{!-- <div class="form-group">
+    <label for="devour">?</label><br>
     <input type="radio" name="devour" value="1" checked> devour!<br>
-    <input type="radio" name="devour" value="0"> save for later
-  </div>
+    {{!-- <input type="radio" name="devour" value="0"> save for later --}}
+  </div> --}}
 
   <button type="submit">Add Burger</button>
 </form>
