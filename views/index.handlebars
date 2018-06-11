@@ -1,25 +1,26 @@
-<h1>burgers!</h1>
+<h1>Eat-da-burgers!</h1>
 <img src="/assets/img/burger.png" alt="burger">
 
-<h2>Burgers that are not devoured!</h2>
+
 <div class="row">
+  <h2>Burgers that are not devoured!</h2>
   <div class="col-sm-6">
     <ul>
       {{#each burgers}}
-        {{#unless devour}}
+        
           {{> burgers/burger-block devour=true}}
-        {{/unless}}
+  
       {{/each}}
     </ul>
   </div>
 
-<h2>burgers that are devoured!</h2>
-  <div class="col-sm-6"></div>
+  <h2>Burgers that are devoured!</h2>
+  <div class="col-sm-6">
     <ul>
       {{#each burgers}}
-        {{#if devour}}
+  
           {{> burgers/burger-block devour=false}}
-        {{/if}}
+
       {{/each}}
     </ul>
   </div>
